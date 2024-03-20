@@ -1,5 +1,5 @@
 <script>
-    import Icon from '../../../../components/Icon.svelte';
+    import Icon from '..icon.svelte';
     function remove(index) {
         todoList.splice(index, 1);
         todoList = todoList;
