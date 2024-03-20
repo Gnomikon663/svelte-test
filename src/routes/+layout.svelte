@@ -20,22 +20,22 @@
     {
     title: 'Обо Mнe',
     href: './about',
-    isShow: true,
+    isShow: true
     },
     {
     title: 'Блoг',
     href: './blog',
-    isShow: true,
+    isShow: true
 },
 {
     title: 'Портфолио',
     href: './project',
-    isShow: true,
+    isShow: true
 },
     {
     title: 'Контакты',
     href: './contact',
-    isShow: true,
+    isShow: true
     },
     {
     title: 'temp',
