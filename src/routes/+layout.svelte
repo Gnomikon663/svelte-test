@@ -1,7 +1,7 @@
 
 <nav>
 <div class="nav-container">
-<a href="/" class="nav-logo" title="Back to Homepage">Кихтенко Захар</а> 
+<a href="/" class="nav-logo" title="Back to Homepage">Кихтенко Захар</a> 
     <div class="nav-links">
 <a href="/about" class="link">Обо мнe</a>
  <a href="/blog" class="link">Блoг</a>

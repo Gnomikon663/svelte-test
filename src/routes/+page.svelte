@@ -25,7 +25,8 @@
 </div>
 <div class="background-div"></div>
 
-<style> .info {
+<style>
+ .info {
     text-align: center;
     position: relative;
     }
@@ -49,9 +50,11 @@ width: fit-content;
 font-weight: 800; letter-spacing: -0.03em;
 }
 .info h2 {
-}
+
 max-width: 65ch;
-font-weight: 200; margin-top: 0.50rem;
+font-weight: 200;
+ margin-top: 0.50rem;
+}
 .background-div {
 background-color: #ecebe8;
 width: 100%;
