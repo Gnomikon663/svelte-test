@@ -18,12 +18,11 @@
 <script>
     const nav = [
     {
-    
     title: 'Обо Mнe',
     href: '/about'
     },
     {
-    title: 'блoг',
+    title: 'Блoг',
     href: '/blog'
 },
 {
