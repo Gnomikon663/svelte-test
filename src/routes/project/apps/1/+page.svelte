@@ -1,5 +1,5 @@
 <script>
-    import Icon from '..icon.svelte';
+    
     function remove(index) {
         todoList.splice(index, 1);
         todoList = todoList;
@@ -21,6 +21,7 @@ function add() {
         newItem="";
     }
 }
+import { Icon } from '../../../../components/Icon.svelte';
  </script>
  <h1>My to-do list</h1>
 <main>
