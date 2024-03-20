@@ -80,13 +80,7 @@ align-items: center;
 margin-left: 1rem;
 }
 
-.todo button {
-width: 32px;
-height: 32px;
-padding: 4px;
-margin: 0;
-flex-shrink: 0;
-}
+
 button {
 
 background-color: transparent;
@@ -103,16 +97,7 @@ button.complete:hover {
 color: cadetblue;
 transition: color 100ms ease-out;
 }
-.todo.completed {
 
-color: slategray;
-}
-.todo.completed .todo__text {
-     text-decoration: line-through;
-}
-.todo.completed button {
-color: silver;
-}
 .todos {
 
 width: 100%;
