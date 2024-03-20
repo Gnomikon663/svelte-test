@@ -19,23 +19,23 @@
     const nav = [
     {
     title: 'Обо Mнe',
-    href: '/about'
+    href: './about'
     },
     {
     title: 'Блoг',
-    href: '/blog'
+    href: './blog'
 },
 {
     title: 'Портфолио',
-    href: '/project'
+    href: './project'
 },
     {
     title: 'Контакты',
-    href: '/contact'
+    href: './contact'
     },
     {
     title: 'temp',
-    href: '/temp'
+    href: './temp'
     }
     ]
     </script>
