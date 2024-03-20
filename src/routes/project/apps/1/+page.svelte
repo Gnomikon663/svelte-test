@@ -32,13 +32,13 @@ import { Icon } from '../../../../components/Icon.svelte';
 <div class="todos">
     {#each todoList as item, index}
     <span class="todo____text">{item.task}</span>
-    <div class="todo___buttons"></div>
-    <button class="complete" on:click={() => complete(index)}>
-        <Icon name="check-mark" />
-        </button>
+    <div class="todo___buttons">
+        <button class="complete" on:click={() => complete(index)}>
+             <Icon name="check-mark"/>
         <button class="delete" on:click={() => remove(index)}>
-        <Icon name="delete" />
+             <Icon name="delete"/>
         </button>
+        </div>
     {/each}
     </div>
     

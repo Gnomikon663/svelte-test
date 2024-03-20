@@ -11,11 +11,4 @@
     },
     ];
     let icon = icons.find((item) => item.name === name); </script>
-    Вернитесь к файлу +page.svelte и замените строку: <div class="todo buttons"></div>
-    <div class="todo___buttons">
-    <button class="complete" on:click={() => complete(index)}>
-         <Icon name="check-mark" />
-    <button class="delete" on:click={() => remove(index)}>
-         <Icon name="delete" />
-    </button>
-    </div>
+  
