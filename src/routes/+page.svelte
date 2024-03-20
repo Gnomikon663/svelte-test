@@ -15,6 +15,7 @@
                 <h2 class='subtitle'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quasi similique aliquid reprehenderit officiis iusto deleniti vel id voluptatibus maxime tenetur totam, soluta architecto. Sed porro sunt temporibus dolor cupiditate?
                 </h2>
+                <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
                 <div style='color:black' class="scroll-button animate-scroll" tabindex='0'>
                     <a href="/about">Click Here</a>
                     <div class="arrow"></div>
@@ -50,7 +51,6 @@ width: fit-content;
 font-weight: 800; letter-spacing: -0.03em;
 }
 .info h2 {
-
 max-width: 65ch;
 font-weight: 200;
  margin-top: 0.50rem;
@@ -61,7 +61,7 @@ width: 100%;
 height: 56vh;
 margin: -205px auto;
 }
-info info-text {
+.info .info-text {
 position: relative;
 }
 .scroll-button { display: flex;
@@ -69,7 +69,7 @@ border: none;
 outline: none;
 cursor: pointer;
 }
-.scroll-button arrow {
+.scroll-button .arrow {
 margin-left: 0.50rem;
 }
 </style>
