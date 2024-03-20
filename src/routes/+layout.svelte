@@ -3,10 +3,11 @@
 <div class="nav-container">
 <a href="/" class="nav-logo" title="Back to Homepage">Кихтенко Захар</a> 
     <div class="nav-links">
-<a href="/about" class="link">Обо мнe</a>
- <a href="/blog" class="link">Блoг</a>
-<a href="/projects" class="link">Портфолио</a>
- <a href="/contact" class="link">Kонтaкты</a>
+        {#each nav as link}
+
+        <a href={link.href} class="link">{link.title}</a>
+        
+        {/each}
 </div>
 </div>
  </nav>
@@ -14,6 +15,39 @@
 <!-- Pages will be injected below -->
 <slot></slot>
 </div>
+<script>
+    const nav = [
+    {
+    
+    title: 'Обо Mнe',
+    href: '/about'
+    },
+    {
+    title: 'блoг',
+    href: '/blog'
+},
+{
+    title: 'Портфолио',
+    href: '/project'
+},
+    {
+    title: 'Контакты',
+    href: '/contact'
+    },
+    {
+    title: 'temp',
+    href: '/temp'
+    },
+    {
+
+"title": "temp",
+
+"href": "/temp"
+
+}
+    ]
+    </script>
+
 <style>
 .container {
 max-width: 1400px;
